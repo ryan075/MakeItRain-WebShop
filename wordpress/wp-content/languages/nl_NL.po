@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.7.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-06-04 08:36:04+0000\n"
+"PO-Revision-Date: 2021-06-17 11:46:51+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12375,7 +12375,7 @@ msgstr "%1$s en %2$s"
 #. translators: 1: Blog name, 2: WordPress
 #: wp-includes/theme-compat/footer.php:26
 msgid "%1$s is proudly powered by %2$s"
-msgstr "%1$s wordt mogelijk gemaakt door %2$s"
+msgstr "%1$s wordt met trots aangedreven door %2$s"
 
 #: wp-includes/theme-compat/comments.php:24
 msgid "This post is password protected. Enter the password to view comments."
@@ -13235,7 +13235,7 @@ msgstr "<strong>Fout</strong>: Geef een gebruikersnaam of e-mailadres op."
 
 #: wp-login.php:152
 msgid "Powered by WordPress"
-msgstr "Mogelijk gemaakt door WordPress"
+msgstr "Aangedreven door WordPress"
 
 #. translators: 1: WordPress version number, 2: Minimum required MySQL version
 #. number.

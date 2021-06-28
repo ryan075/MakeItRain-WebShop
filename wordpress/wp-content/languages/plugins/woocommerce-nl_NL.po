@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-06-09 18:29:13+0000\n"
+"PO-Revision-Date: 2021-06-10 07:06:07+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1394,13 +1394,13 @@ msgstr "Bewerk btw instellingen"
 msgid "Automated tax calculations are enabled on your store through WooCommerce Shipping & Tax. Learn more about automated taxes <a href=\"https://docs.woocommerce.com/document/woocommerce-services/#section-12\">here</a>."
 msgstr "Geautomatiseerde belastingberekeningen zijn ingeschakeld in je winkel via WooCommerce Shipping & Tax. Lees meer over geautomatiseerde belastingen<a href=\"https://docs.woocommerce.com/document/woocommerce-services/#section-12\">hier</a>."
 
-#: packages/woocommerce-admin/src/Notes/SellingOnlineCourses.php:69
-msgid "Online courses are a great solution for any business that can teach a new skill. Since courses don’t require physical product development or shipping, they’re affordable, fast to create, and can generate passive income for years to come. In this article, we provide you more information about selling courses using WooCommerce."
-msgstr "Online cursussen zijn een geweldige oplossing voor elk bedrijf dat een nieuwe vaardigheid kan leren. Aangezien voor cursussen geen fysieke productontwikkeling of verzending is vereist, zijn ze betaalbaar, kunnen ze snel worden aangemaakt en kunnen ze jarenlang passieve inkomsten opleveren. In dit artikel geven we je meer informatie over het aanbieden van cursussen via WooCommerce."
-
 #: packages/woocommerce-admin/src/Notes/GoogleAdsAndMarketing.php:66
 msgid "Get your products in front of millions of shoppers on Google to grow your sales"
 msgstr "Bied je producten aan miljoenen shoppers aan op Google om je omzet te verhogen"
+
+#: packages/woocommerce-admin/src/Notes/SellingOnlineCourses.php:69
+msgid "Online courses are a great solution for any business that can teach a new skill. Since courses don’t require physical product development or shipping, they’re affordable, fast to create, and can generate passive income for years to come. In this article, we provide you more information about selling courses using WooCommerce."
+msgstr "Online cursussen zijn een geweldige oplossing voor elk bedrijf dat een nieuwe vaardigheid kan leren. Aangezien voor cursussen geen fysieke productontwikkeling of verzending is vereist, zijn ze betaalbaar, kunnen ze snel worden aangemaakt en kunnen ze jarenlang passieve inkomsten opleveren. In dit artikel geven we je meer informatie over het aanbieden van cursussen via WooCommerce."
 
 #: packages/woocommerce-admin/src/Notes/SellingOnlineCourses.php:68
 msgid "Do you want to sell online courses?"
@@ -5349,6 +5349,16 @@ msgstr "Beperk resultaten tot artikelen zonder de gespecificeerde bestelstatus."
 msgid "Limit result set to items that have the specified order status."
 msgstr "Beperk resultaten tot artikelen met de gespecificeerde bestelstatus."
 
+#: packages/woocommerce-admin/src/API/Reports/Variations/Stats/Controller.php:260
+#: packages/woocommerce-admin/src/API/Reports/Taxes/Stats/Controller.php:279
+#: packages/woocommerce-admin/src/API/Reports/Coupons/Stats/Controller.php:242
+#: packages/woocommerce-admin/src/API/Reports/Downloads/Stats/Controller.php:199
+#: packages/woocommerce-admin/src/API/Reports/Orders/Stats/Controller.php:303
+#: packages/woocommerce-admin/src/API/Reports/Products/Stats/Controller.php:263
+#: packages/woocommerce-admin/src/API/Reports/Revenue/Stats/Controller.php:328
+msgid "The date the report end, as GMT."
+msgstr "De datum waarop het rapport stopt, in GMT."
+
 #: packages/woocommerce-admin/src/API/Reports/Variations/Stats/Controller.php:374
 #: packages/woocommerce-admin/src/API/Reports/Taxes/Stats/Controller.php:358
 #: packages/woocommerce-admin/src/API/Reports/Coupons/Stats/Controller.php:320
@@ -5359,16 +5369,6 @@ msgstr "Beperk resultaten tot artikelen met de gespecificeerde bestelstatus."
 #: packages/woocommerce-admin/src/API/Reports/Revenue/Stats/Controller.php:412
 msgid "Time interval to use for buckets in the returned data."
 msgstr "Tijdsinterval te gebruiken voor buckets in de geretourneerde gegevens."
-
-#: packages/woocommerce-admin/src/API/Reports/Variations/Stats/Controller.php:260
-#: packages/woocommerce-admin/src/API/Reports/Taxes/Stats/Controller.php:279
-#: packages/woocommerce-admin/src/API/Reports/Coupons/Stats/Controller.php:242
-#: packages/woocommerce-admin/src/API/Reports/Downloads/Stats/Controller.php:199
-#: packages/woocommerce-admin/src/API/Reports/Orders/Stats/Controller.php:303
-#: packages/woocommerce-admin/src/API/Reports/Products/Stats/Controller.php:263
-#: packages/woocommerce-admin/src/API/Reports/Revenue/Stats/Controller.php:328
-msgid "The date the report end, as GMT."
-msgstr "De datum waarop het rapport stopt, in GMT."
 
 #: packages/woocommerce-admin/src/API/Reports/Variations/Stats/Controller.php:254
 #: packages/woocommerce-admin/src/API/Reports/Taxes/Stats/Controller.php:273
@@ -5438,6 +5438,11 @@ msgstr "Segment-ID."
 msgid "Reports data grouped by segment condition."
 msgstr "Rapportgegevens gegroepeerd op segmentvoorwaarde."
 
+#: packages/woocommerce-admin/src/API/Reports/Orders/Stats/Controller.php:204
+#: packages/woocommerce-admin/src/API/Reports/Revenue/Stats/Controller.php:189
+msgid "Unique coupons count."
+msgstr "Aantal unieke coupons."
+
 #: packages/woocommerce-admin/src/API/Reports/Variations/Stats/Controller.php:201
 #: packages/woocommerce-admin/src/API/Reports/Variations/Stats/Controller.php:266
 #: packages/woocommerce-admin/src/API/Reports/Taxes/Stats/Controller.php:220
@@ -5454,11 +5459,6 @@ msgstr "Rapportgegevens gegroepeerd op segmentvoorwaarde."
 msgid "Interval subtotals."
 msgstr "Subtotalen interval."
 
-#: packages/woocommerce-admin/src/API/Reports/Orders/Stats/Controller.php:204
-#: packages/woocommerce-admin/src/API/Reports/Revenue/Stats/Controller.php:189
-msgid "Unique coupons count."
-msgstr "Aantal unieke coupons."
-
 #: packages/woocommerce-admin/src/API/Reports/Orders/Stats/Controller.php:198
 #: packages/woocommerce-admin/src/API/Reports/Revenue/Stats/Controller.php:183
 msgid "Amount discounted by coupons."
@@ -5471,10 +5471,6 @@ msgstr "Kortingsbedrag door coupons."
 msgid "Net Sales."
 msgstr "Netto-omzet."
 
-#: packages/woocommerce-admin/src/API/Coupons.php:34
-msgid "Limit results to coupons with codes matching a given string."
-msgstr "Beperk resultaten tot coupons met codes die overeenkomen met een bepaalde tekenreeks."
-
 #: packages/woocommerce-admin/src/API/Reports/Variations/Stats/Controller.php:220
 #: packages/woocommerce-admin/src/API/Reports/Customers/Stats/Controller.php:164
 #: packages/woocommerce-admin/src/API/Reports/Taxes/Stats/Controller.php:239
@@ -5486,6 +5482,10 @@ msgstr "Beperk resultaten tot coupons met codes die overeenkomen met een bepaald
 #: packages/woocommerce-admin/src/API/Reports/Revenue/Stats/Controller.php:288
 msgid "Totals data."
 msgstr "Totale gegevens."
+
+#: packages/woocommerce-admin/src/API/Coupons.php:34
+msgid "Limit results to coupons with codes matching a given string."
+msgstr "Beperk resultaten tot coupons met codes die overeenkomen met een bepaalde tekenreeks."
 
 #: packages/woocommerce-admin/src/API/Leaderboards.php:526
 msgid "Table cell value."
@@ -5549,6 +5549,22 @@ msgstr "Top klanten - Totale uitgaven"
 msgid "Net Sales"
 msgstr "Netto-omzet"
 
+#: packages/woocommerce-admin/src/API/Leaderboards.php:191
+#: packages/woocommerce-admin/src/API/Leaderboards.php:321
+#: packages/woocommerce-admin/src/API/Reports/Variations/Stats/Controller.php:156
+#: packages/woocommerce-admin/src/API/Reports/Variations/Controller.php:414
+#: packages/woocommerce-admin/src/API/Reports/Orders/Controller.php:532
+#: packages/woocommerce-admin/src/API/Reports/Products/Stats/Controller.php:159
+#: packages/woocommerce-admin/src/API/Reports/Products/Controller.php:390
+#: packages/woocommerce-admin/src/API/Reports/Categories/Controller.php:330
+#: packages/woocommerce-admin/dist/chunks/analytics-report-products.js:1
+#: packages/woocommerce-admin/dist/chunks/dashboard-charts.js:1
+#: packages/woocommerce-admin/dist/chunks/analytics-report-categories.js:1
+#: packages/woocommerce-admin/dist/chunks/analytics-report-variations.js:1
+#: packages/woocommerce-admin/dist/chunks/analytics-report-orders.js:1
+msgid "Items Sold"
+msgstr "Verkochte artikelen"
+
 #: packages/woocommerce-admin/src/API/Leaderboards.php:185
 msgid "Top Categories - Items Sold"
 msgstr "Top categorieën - Verkochte artikelen"
@@ -5568,22 +5584,6 @@ msgstr "Couponcode"
 #: packages/woocommerce-admin/src/API/Leaderboards.php:119
 msgid "Top Coupons - Number of Orders"
 msgstr "Top coupons - Aantal bestellingen"
-
-#: packages/woocommerce-admin/src/API/Leaderboards.php:191
-#: packages/woocommerce-admin/src/API/Leaderboards.php:321
-#: packages/woocommerce-admin/src/API/Reports/Variations/Stats/Controller.php:156
-#: packages/woocommerce-admin/src/API/Reports/Variations/Controller.php:414
-#: packages/woocommerce-admin/src/API/Reports/Orders/Controller.php:532
-#: packages/woocommerce-admin/src/API/Reports/Products/Stats/Controller.php:159
-#: packages/woocommerce-admin/src/API/Reports/Products/Controller.php:390
-#: packages/woocommerce-admin/src/API/Reports/Categories/Controller.php:330
-#: packages/woocommerce-admin/dist/chunks/analytics-report-products.js:1
-#: packages/woocommerce-admin/dist/chunks/dashboard-charts.js:1
-#: packages/woocommerce-admin/dist/chunks/analytics-report-categories.js:1
-#: packages/woocommerce-admin/dist/chunks/analytics-report-variations.js:1
-#: packages/woocommerce-admin/dist/chunks/analytics-report-orders.js:1
-msgid "Items Sold"
-msgstr "Verkochte artikelen"
 
 #: packages/woocommerce-admin/src/API/NoteActions.php:63
 #: packages/woocommerce-admin/src/API/NoteActions.php:73
@@ -8335,6 +8335,13 @@ msgstr "De volgende opmerking is toegevoegd aan je bestelling:"
 msgid "We look forward to seeing you soon."
 msgstr "We kijken ernaar uit om je te zien."
 
+#. translators: %s: Order date
+#. translators: %s Order date
+#: templates/emails/plain/customer-invoice.php:39
+#: templates/emails/customer-invoice.php:55
+msgid "Here are the details of your order placed on %s:"
+msgstr "Dit zijn de gegevens van je bestelling, geplaatst op %s:"
+
 #. translators: %1$s: Site title, %2$s: Username, %3$s: My account link
 #: packages/woocommerce-blocks/templates/emails/customer-new-account-blocks.php:19
 #: packages/woocommerce-blocks/templates/emails/plain/customer-new-account-blocks.php:21
@@ -8342,13 +8349,6 @@ msgstr "We kijken ernaar uit om je te zien."
 #: templates/emails/customer-new-account.php:25
 msgid "Thanks for creating an account on %1$s. Your username is %2$s. You can access your account area to view orders, change your password, and more at: %3$s"
 msgstr "Bedankt voor het aanmaken van een account bij %1$s. Ter herinnering: de door jou gekozen gebruikersnaam is %2$s. Je kunt je accountgebied openen om bestellingen te bekijken, je wachtwoord te wijzigen en meer, via: %3$s"
-
-#. translators: %s: Order date
-#. translators: %s Order date
-#: templates/emails/plain/customer-invoice.php:39
-#: templates/emails/customer-invoice.php:55
-msgid "Here are the details of your order placed on %s:"
-msgstr "Dit zijn de gegevens van je bestelling, geplaatst op %s:"
 
 #. translators: %1$s: Site title, %2$s: Order pay link
 #. translators: %1$s Site title, %2$s Order pay link
@@ -10918,20 +10918,16 @@ msgstr "Beeldformaat gebruikt voor producten in de catalogus."
 #. translators: 1: tools URL 2: regen thumbs url
 #: includes/customizer/class-wc-shop-customizer.php:532
 msgid "After publishing your changes, new image sizes may not be shown until you regenerate thumbnails. You can do this from the <a href=\"%1$s\" target=\"_blank\">tools section in WooCommerce</a> or by using a plugin such as <a href=\"%2$s\" target=\"_blank\">Regenerate Thumbnails</a>."
-msgstr "Nadat u uw wijzigingen hebt gepubliceerd, worden nieuwe afbeeldingsformaten mogelijk pas weergegeven als u miniaturen opnieuw genereert. U kunt dit doen vanuit de sectie <a href=\"%1$s\" target=\"_blank\"> tools in WooCommerce </a> of via een plug-in, zoals <a href=\"%2$s\" target=\"_blank\">Regenerate Thumbnails</a>."
+msgstr "Nadat je je wijzigingen hebt gepubliceerd, worden nieuwe afbeeldingsformaten mogelijk pas weergegeven als je thumbnails opnieuw genereert. Je kunt dit doen vanuit de sectie <a href=\"%1$s\" target=\"_blank\"> gereedschappen in WooCommerce</a> of via een plugin, zoals <a href=\"%2$s\" target=\"_blank\">thumbnails opnieuw maken</a>."
 
 #. translators: %s: regen thumbs url
 #: includes/customizer/class-wc-shop-customizer.php:535
 msgid "After publishing your changes, new image sizes may not be shown until you <a href=\"%s\" target=\"_blank\">Regenerate Thumbnails</a>."
-msgstr "Nadat u uw wijzigingen heeft gepubliceerd, worden nieuwe afbeeldingsformaten mogelijk pas weergegeven nadat u <a href=\"%s\" target=\"_blank\"> Thumbnails opnieuw maakt </a>."
+msgstr "Nadat je je wijzigingen heeft gepubliceerd, worden nieuwe afbeeldingsformaten mogelijk pas weergegeven nadat je <a href=\"%s\" target=\"_blank\">thumbnails opnieuw maakt </a>."
 
 #: includes/admin/class-wc-admin-taxonomies.php:434
 msgid "This is the default category and it cannot be deleted. It will be automatically assigned to products with no category."
 msgstr "Dit is de standaard categorie en kan niet verwijderd worden. Deze zal automatisch aan producten gekoppeld worden die niet in een categorie geplaatst zijn."
-
-#: includes/customizer/class-wc-shop-customizer.php:529
-msgid "After publishing your changes, new image sizes will be generated automatically."
-msgstr "Nadat u uw wijzigingen hebt gepubliceerd, worden automatisch nieuwe afbeeldingsformaten gegenereerd."
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-tools-v2-controller.php:538
 msgid "Thumbnail regeneration has been scheduled to run in the background."
@@ -10971,10 +10967,6 @@ msgstr "De regeneratietaak voor de productafbeelding wordt geannuleerd."
 msgid "This will regenerate all shop thumbnails to match your theme and/or image settings."
 msgstr "Hiermee worden miniatuurafbeeldingen in de winkel opnieuw gegenereerd, zodat ze matchen met jouw thema en/of afbeeldingsinstellingen."
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-tools-v2-controller.php:198
-msgid "Regenerate shop thumbnails"
-msgstr "Miniatuurafbeeldingen in de winkel opnieuw genereren."
-
 #: includes/admin/views/html-notice-regenerating-thumbnails.php:12
 msgid "Thumbnail regeneration is running in the background. Depending on the amount of images in your store this may take a while."
 msgstr "Miniatuurafbeeldingen opnieuw genereren draait op de achtergrond. Afhankelijk van de hoeveelheid afbeeldingen in je winkel, kan het een poosje duren."
@@ -10987,6 +10979,14 @@ msgstr "Miniatuurafbeeldingen opnieuw genereren annuleren."
 #: includes/admin/class-wc-admin-taxonomies.php:342
 msgid "Deleting a category does not delete the products in that category. Instead, products that were only assigned to the deleted category are set to the category %s."
 msgstr "Door een categorie te verwijderen, worden producten in die categorie niet verwijderd. In plaats daarvan worden producten die aan de verwijderde categorie waren toegewezen, ingedeeld in de categorie %s."
+
+#: includes/customizer/class-wc-shop-customizer.php:529
+msgid "After publishing your changes, new image sizes will be generated automatically."
+msgstr "Nadat je je wijzigingen hebt gepubliceerd, worden automatisch nieuwe afbeeldingsformaten gegenereerd."
+
+#: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-tools-v2-controller.php:198
+msgid "Regenerate shop thumbnails"
+msgstr "Winkel thumbnails opnieuw genereren."
 
 #. translators: %s: Quantity.
 #: templates/global/quantity-input.php:28
@@ -23903,11 +23903,6 @@ msgstr "Je kunt dit aantal niet aan je winkelmand toevoegen &mdash; we hebben er
 msgid "You cannot add that amount of &quot;%1$s&quot; to the cart because there is not enough stock (%2$s remaining)."
 msgstr "Je kunt dit aantal van &quot;%1$s&quot; niet toevoegen aan je winkelmand, omdat er niet voldoende voorraad is (%2$s resterend)."
 
-#. translators: %s: product name
-#: includes/class-wc-cart.php:768
-msgid "Sorry, \"%s\" is not in stock. Please edit your cart and try again. We apologize for any inconvenience caused."
-msgstr "Sorry, \"%s\" is niet op voorraad. Pas je bestelling aan en probeer het opnieuw. Onze excuses voor het ongemak."
-
 #. translators: %s: error message
 #: includes/class-wc-auth.php:402
 msgid "Access denied"
@@ -23977,6 +23972,11 @@ msgstr[1] "%d producten"
 msgctxt "Page slug"
 msgid "cart"
 msgstr "winkelwagen"
+
+#. translators: %s: product name
+#: includes/class-wc-cart.php:768
+msgid "Sorry, \"%s\" is not in stock. Please edit your cart and try again. We apologize for any inconvenience caused."
+msgstr "Helaas is \"%s\" is niet op voorraad. Pas je winkelwagen aan en probeer opnieuw. Onze excuses voor het ongemak."
 
 #: includes/admin/views/html-admin-page-status-report.php:69
 msgid "The version of WooCommerce installed on your site."
